@@ -42,11 +42,11 @@ public class Producto {
 
     @Schema(description = "Cantidad de stock disponible del producto", example = "5")
     @Column(name="stock",nullable=false)
-    private int stock;
+    private Integer stock;
 
     @Schema(description = "Precio del producto en pesos chilenos", example = "10000")
     @Column(name="precio",nullable=false)
-    private int precio;
+    private Integer precio;
 
 }
 
